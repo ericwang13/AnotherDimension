@@ -52,4 +52,20 @@ public class ArrayOps {
 
         return total;
     }
+
+    public static int[] sumCols(int[][] matrix) {
+        return new int[0];
+    }
+
+    public static boolean isRowMagic(int[][] matrix) {
+        return true;
+    }
+    
+    public static boolean isColMagic(int[][] matrix) {
+        return true;
+    }
+
+    public static boolean isLocationMagic(int[][] matrix, int row, int col) {
+        return true;
+    }
 }
