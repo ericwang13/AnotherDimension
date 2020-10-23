@@ -61,11 +61,20 @@ public class ArrayOps {
                 totals[i] += matrix[j][i];
             }
         }
-        
+
         return totals;
     }
 
     public static boolean isRowMagic(int[][] matrix) {
+        int[] totals = sumRows(matrix);
+        int rowTotal = totals[0];
+
+        for (int i : totals) {
+            if (rowTotal != i) {
+                return false;
+            }
+        }
+
         return true;
     }
     

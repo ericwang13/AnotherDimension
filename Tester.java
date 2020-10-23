@@ -29,6 +29,8 @@ public class Tester {
         // Test isRowMagic(int[][] matrix)
         System.out.println("isRowMagic(int[][] matrix):\n " +
                 ArrayOps.isRowMagic(new int[][] { { 13, 7, 17 }, { 1, 9, 8, 9 }, { 22, 15 }, { 1, 8 } }));
+        System.out.println(" " +
+                ArrayOps.isRowMagic(new int[][] { { 13, 7, 17 }, { 7, 17, 13 }, { 30, 7 }, { 37 } }));
 
         // Test isColMagic(int[][] matrix)
         System.out.println("isColMagic(int[][] matrix):\n " +
