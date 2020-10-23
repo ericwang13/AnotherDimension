@@ -22,7 +22,13 @@ public class ArrayOps {
     }
 
     public static int[] sumRows(int[][] matrix) {
-        return new int[0];
+        int[] totals = new int[matrix.length];
+
+        for (int i = 0; i < matrix.length; i++) {
+            totals[i] = sum(matrix[i]);
+        }
+
+        return totals;
     }
 
     public static int[] largestInRows(int[][] matrix) {
