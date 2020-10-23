@@ -40,6 +40,8 @@ public class Tester {
 
         // Test isLocationMagic(int[][] matrix, int row, int col)
         System.out.println("isLocationMagic(int[][] matrix, int row, int col):\n " +
-                ArrayOps.isLocationMagic(new int[][] { { 13, 7, 17 }, { 1, 9, 8, 9 }, { 22, 15 }, { 1, 8 } }, 13, 7));
+                ArrayOps.isLocationMagic(new int[][] { { 2, 4, 2 }, { 2, 2, 2 } }, 0, 1));
+        System.out.println(" " +
+                ArrayOps.isLocationMagic(new int[][] { { 2, 4, 2 }, { 2, 2, 2 } }, 1, 1));
     }
 }
