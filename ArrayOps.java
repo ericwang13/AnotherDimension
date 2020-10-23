@@ -1,7 +1,13 @@
 public class ArrayOps {
 
     public static int sum(int[] arr) {
-        return 0;
+        int total = 0;
+
+        for (int i : arr) {
+            total += i;
+        }
+
+        return total;
     }
 
     public static int largest(int[] arr) {
