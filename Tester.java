@@ -15,5 +15,8 @@ public class Tester {
         // Test largestInRows(int[][] matrix)
         System.out.println(Arrays
                 .toString(ArrayOps.largestInRows(new int[][] { { 13, 7, 17 }, { 1, 9, 8, 9 }, { 22, 15 }, { 1, 8 } })));
+
+        // Test sum(int[][] arr)
+        System.out.println((ArrayOps.sum(new int[][] { { 13, 7, 17 }, { 1, 9, 8, 9 }, { 22, 15 }, { 1, 8 } })));
     }
 }
