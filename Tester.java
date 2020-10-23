@@ -34,7 +34,9 @@ public class Tester {
 
         // Test isColMagic(int[][] matrix)
         System.out.println("isColMagic(int[][] matrix):\n " +
-                ArrayOps.isColMagic(new int[][] { { 13, 7, 17 }, { 1, 9, 8, 9 }, { 22, 15 }, { 1, 8 } }));
+                ArrayOps.isColMagic(new int[][] { { 13, 7, 17, 12 }, { 1, 9, 8, 9 }, { 1, 8, 15, 22} }));
+        System.out.println(" " +
+                ArrayOps.isColMagic(new int[][] { { 13, 7, 17, 12 }, { 4, 10, 0, 5 } }));
 
         // Test isLocationMagic(int[][] matrix, int row, int col)
         System.out.println("isLocationMagic(int[][] matrix, int row, int col):\n " +
