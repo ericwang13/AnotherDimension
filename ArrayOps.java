@@ -11,7 +11,14 @@ public class ArrayOps {
     }
 
     public static int largest(int[] arr) {
-        return 0;
+        int max = arr[0];
+
+        for (int i : arr) {
+            if (i > max)
+                max = i;
+        }
+
+        return max;
     }
 
     public static int[] sumRows(int[][] matrix) {
